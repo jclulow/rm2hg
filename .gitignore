@@ -1,0 +1,5 @@
+project/target
+project/plugins/target
+project/boot
+target
+.*.swp

@@ -1,0 +1,13 @@
+{
+  "db": {
+    "url": "jdbc:postgresql://database.server.com/redmine",
+    "username": "redmine",
+    "password": "REDACTED"
+  },
+  "hg": {
+    "access_conf": "/etc/mercurial-server/access.conf",
+    "key_dir": "/etc/mercurial-server/users",
+    "command": "/usr/bin/hg",
+    "repo_dir": "/export/hgrepos"
+  }
+}
