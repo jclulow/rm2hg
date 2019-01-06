@@ -147,7 +147,7 @@ object Main extends App {
         try { op(p) } finally { p.close() }
     }
     
-    val reSanitary = """^([a-zA-Z0-9_-]+)$""" r
+    val reSanitary = """^([a-zA-Z0-9_\-][a-zA-Z0-9_\-.@]*)$""" r
 
     /* get data from database */
     val rmdb = new RedmineDatabase(c)
